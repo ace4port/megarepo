@@ -1,0 +1,507 @@
+{
+  "name": "Computer Science",
+  "children": [
+    {
+      "name": "Current",
+      "attributes": {
+        "description": "Fields popular for decades",
+        "industry": "mature",
+        "resources": "plenty of resources and best practices available"
+      },
+      "children": [
+        {
+          "name": "Development",
+          "attributes": {
+            "Department": "software"
+          },
+          "children": [
+            {
+              "name": "Web",
+              "children": [
+                {
+                  "name": "Front end",
+                  "children": [
+                    {
+                      "name": "HTML",
+                      "attributes": {
+                        "description": "The HTML standard is the foundation of web pages."
+                      }
+                    },
+                    {
+                      "name": "CSS",
+                      "attributes": {
+                        "description": "CSS is the styling language of the web."
+                      }
+                    },
+                    {
+                      "name": "JavaScript",
+                      "attributes": {
+                        "description": "JavaScript is the programming language of the web."
+                      },
+                      "children": [
+                        {
+                          "name": "React",
+                          "attributes": {
+                            "description": "A JavaScript library for building user interfaces",
+                            "mature": true
+                          }
+                        },
+                        {
+                          "name": "Angular",
+                          "attributes": {
+                            "description": "A JavaScript framework for building single-page applications",
+                            "mature": true
+                          }
+                        },
+                        {
+                          "name": "Vue",
+                          "attributes": {
+                            "description": "A progressive JavaScript framework for building user interfaces",
+                            "mature": true
+                          }
+                        },
+                        {
+                          "name": "jQuery",
+                          "attributes": {
+                            "description": "jQuery is a JavaScript library."
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Backend",
+                  "children": [
+                    {
+                      "name": "Basics - CRUD"
+                    },
+                    {
+                      "name": "Database"
+                    },
+                    {
+                      "name": "Dev Ops"
+                    },
+                    {
+                      "name": "QA"
+                    },
+                    {
+                      "name": "Security"
+                    },
+                    {
+                      "name": "Docker, Kubernetes and Containerization"
+                    },
+                    {
+                      "name": "CI/CD and Automation"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mobile",
+              "children": [
+                {
+                  "name": "Native",
+                  "children": [
+                    {
+                      "name": "Android",
+                      "attributes": {
+                        "description": "Android is a mobile operating system based on the Linux kernel and designed primarily for touchscreen mobile devices such as smartphones and tablets.",
+                        "mature": true
+                      }
+                    },
+                    {
+                      "name": "iOS",
+                      "attributes": {
+                        "description": "iOS is a mobile operating system based on the OS X and iOS kernel.",
+                        "mature": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "Hybrid",
+                  "children": [
+                    {
+                      "name": "React Native",
+                      "attributes": {
+                        "description": "A JavaScript library for building native apps",
+                        "mature": true
+                      }
+                    },
+                    {
+                      "name": "Flutter",
+                      "attributes": {
+                        "description": "A cross-platform framework for building high-performance apps",
+                        "mature": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "Game development",
+                  "attributes": {
+                    "Department": "Assembly"
+                  },
+                  "children": [
+                    {
+                      "name": "Levels design"
+                    },
+                    {
+                      "name": "Technical artist"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Desktop"
+            },
+            {
+              "name": "Embedded"
+            }
+          ]
+        },
+        {
+          "name": "Design",
+          "attributes": {
+            "Department": "Assembly"
+          },
+          "children": [
+            {
+              "name": "Animation",
+              "children": [
+                {
+                  "name": "Animation",
+                  "attributes": {
+                    "roles": "animator, artist, designer, illustrator, maker, model, musician, writer",
+                    "Department": "2D, 3D animator, modeler, supervisor, writer,technical director, character design"
+                  },
+                  "children": [
+                    {
+                      "name": "Animation"
+                    },
+                    {
+                      "name": "Character Design"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Illustrator",
+              "attributes": {
+                "description": "An illustrator is a professional who creates illustrations."
+              }
+            },
+            {
+              "name": "Typography",
+              "children": [
+                {
+                  "name": "Typography",
+                  "attributes": {
+                    "roles": "artist, designer, editor, producer, writer",
+                    "Department": "2D, 3D, 3D artist, editor, producer, writer"
+                  },
+                  "children": [
+                    {
+                      "name": "Typography"
+                    }
+                  ]
+                },
+                {
+                  "name": "UI/UX designer",
+                  "children": [
+                    {
+                      "name": "UI"
+                    },
+                    {
+                      "name": "UX"
+                    },
+                    {
+                      "name": "Flow Design"
+                    }
+                  ]
+                },
+                {
+                  "name": "Graphics designer",
+                  "children": [
+                    {
+                      "name": "Posters"
+                    },
+                    {
+                      "name": "Social media posts"
+                    },
+                    {
+                      "name": "Banner"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Network & Cyber security",
+          "attributes": {
+            "Department": "Assembly"
+          },
+          "children": [
+            {
+              "name": "Cyber security",
+              "attributes": {
+                "Department": "Assembly"
+              },
+              "children": [
+                {
+                  "name": "Software tester"
+                },
+                {
+                  "name": "Ethical Hacker"
+                },
+                {
+                  "name": "Pen tester"
+                }
+              ]
+            },
+            {
+              "name": "Network admin"
+            },
+            {
+              "name": "Network engineer"
+            },
+            {
+              "name": "Network analyst"
+            },
+            {
+              "name": "Network architect"
+            },
+            {
+              "name": "Network security"
+            },
+            {
+              "name": "Network designer"
+            },
+            {
+              "name": "Network technician"
+            },
+            {
+              "name": "Network manager"
+            }
+          ]
+        },
+        {
+          "name": "Content creation",
+          "attributes": {
+            "Description": "Content creation is the process of creating content(blogs, video) for a website or application."
+          },
+          "children": [
+            {
+              "name": "Content creation",
+              "attributes": {
+                "roles": [
+                  "Blogger",
+                  "Content creator",
+                  "Content manager",
+                  "Content writer",
+                  "Copywriter",
+                  "Editor",
+                  "Photographer",
+                  "Video editor",
+                  "Video producer"
+                ]
+              },
+              "children": [
+                {
+                  "name": "Blogger"
+                },
+                {
+                  "name": "YouTuber"
+                },
+                {
+                  "name": "SEO specialist"
+                },
+                {
+                  "name": "Media specialist/manager"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Others",
+          "children": [
+            {
+              "name": "Management",
+              "attributes": {
+                "Department": "Management"
+              },
+              "children": [
+                {
+                  "name": "Project Manager"
+                },
+                {
+                  "name": "Project Lead"
+                }
+              ]
+            },
+            {
+              "name": "Multimedia",
+              "attributes": {
+                "Department": "Assembly"
+              }
+            },
+            {
+              "name": "Hardware Engineer",
+              "attributes": {
+                "Department": "Assembly"
+              },
+              "children": [
+                {
+                  "name": "Workers"
+                }
+              ]
+            },
+            {
+              "name": "Finance",
+              "attributes": {
+                "Department": "Finance"
+              },
+              "children": [
+                {
+                  "name": "Accounting"
+                }
+              ]
+            },
+            {
+              "name": "Legal",
+              "attributes": {
+                "Department": "Legal"
+              },
+              "children": [
+                {
+                  "name": "Legal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Future",
+      "attributes": {
+        "description": "Fields pretty new (<10 years) or  not fully matured",
+        "industry": "full potential not realized",
+        "resources": "may have diffuculty finding quality resources and best practices"
+      },
+      "children": [
+        {
+          "name": "Blockchain",
+          "attributes": {},
+          "children": [
+            {
+              "name": "Blockchain"
+            },
+            {
+              "name": "Smart Contracts"
+            },
+            {
+              "name": "NFT, ERC721"
+            },
+            {
+              "name": "Solidity"
+            },
+            {
+              "name": "Ethereum"
+            },
+            {
+              "name": "Decentralized Applications"
+            },
+            {
+              "name": "Decentralized Finance"
+            }
+          ]
+        },
+        {
+          "name": "AI/ML and Data Science",
+          "children": [
+            {
+              "name": "Artificial Intelligence"
+            },
+            {
+              "name": "Sorting, Searching and Optimization"
+            },
+            {
+              "name": "MinMax and Alpha Beta Pruning"
+            },
+            {
+              "name": "Machine Learning"
+            },
+            {
+              "name": "Data Science"
+            },
+            {
+              "name": "Neural Networks"
+            },
+            {
+              "name": "Deep Networks"
+            }
+          ]
+        },
+        {
+          "name": "Cloud computing",
+          "attributes": {},
+          "children": [
+            {
+              "name": "Amazon Web Services"
+            },
+            {
+              "name": "Microsoft Azure"
+            },
+            {
+              "name": "Google Cloud Platform"
+            },
+            {
+              "name": "IBM Cloud"
+            },
+            {
+              "name": "Digital Ocean"
+            },
+            {
+              "name": "Heroku"
+            },
+            {
+              "name": "Cloud Foundry"
+            }
+          ]
+        },
+        {
+          "name": "AR/VR",
+          "attributes": {},
+          "children": [
+            {
+              "name": "Augmented Reality (AR)"
+            },
+            {
+              "name": "Virtual Reality (VR)"
+            }
+          ]
+        },
+        {
+          "name": "IOT",
+          "attributes": {},
+          "children": [
+            {
+              "name": "Electronics"
+            },
+            {
+              "name": "Ubiquitous Computing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
