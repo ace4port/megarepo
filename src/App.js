@@ -1,14 +1,9 @@
-import Tree from './Tree'
-import data from './megarepodata.json'
+import OrgChartTree from './D3Tree'
+
 function App() {
-  console.log(data)
   return (
     <div>
-      {/* <Chart /> */}
-      {/* <BarChart data={data} /> */}
-      {/* <Scatter /> */}
-      <h2>Hello there</h2>
-      <Tree />
+      <OrgChartTree />
     </div>
   )
 }

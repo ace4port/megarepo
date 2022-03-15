@@ -1,0 +1,26 @@
+#treeWrapper {
+  /* width: 100vw; */
+  height: 100vh;
+}
+
+/* custom-tree.css */
+.node__root > circle {
+  fill: #4169e1;
+  stroke: #4169e1;
+}
+
+.node__branch > circle {
+  fill: #4169e1;
+  stroke: #4169e1;
+}
+
+.node__leaf > circle {
+  fill: #41e141;
+  stroke: #41e141;
+  r: 40;
+}
+
+.custom-link {
+  stroke-width: 5;
+  stroke: #a5bdff !important;
+}
