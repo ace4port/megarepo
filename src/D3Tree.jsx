@@ -5,21 +5,42 @@ import PureSvgNodeElement from './components/PureSvgNode'
 import dataJSON from './megarepodata.json'
 
 const customNodeFnMapping = {
-  description: 'Default - Pure SVG node & label (IE11 compatible)',
-  fn: (rd3tProps, appState = 'horizontal') => (
+  // simple: {
+  //   description: 'Default - Pure SVG node & label (IE11 compatible)',
+  //   fn: (rd3tProps, appState = 'horizontal', closeModal, openModal) => (
+  //     <PureSvgNodeElement
+  //       nodeDatum={rd3tProps.nodeDatum}
+  //       toggleNode={rd3tProps.toggleNode}
+  //       // orientation={appState.orientation}
+  //       orientation={appState}
+  //       closeModal={closeModal}
+  //       openModal={openModal}
+  //     />
+  //   ),
+  // },
+  // mixed: {
+  description: 'MixedNodeElement - SVG `circle` + `foreignObject` label',
+  fn: (rd3tProps, appState) => (
     <PureSvgNodeElement
-      nodeDatum={rd3tProps.nodeDatum}
+      nodeData={rd3tProps.nodeDatum}
       toggleNode={rd3tProps.toggleNode}
-      // orientation={appState.orientation}
-      orientation={appState}
+      orientation="horizontal"
+      foreignObjectProps={{
+        width: appState.nodeSize.x,
+        height: appState.nodeSize.y,
+        x: -50,
+        y: 50,
+      }}
     />
   ),
+  // },
 }
 
 export default function OrgChartTree() {
   const [chartState, setChartState] = React.useState({
     data: dataJSON,
     renderCustomNodeElement: customNodeFnMapping.fn,
+    nodeSize: { x: 180, y: 50 },
   })
 
   false && setChartState({})
@@ -38,7 +59,7 @@ export default function OrgChartTree() {
         renderCustomNodeElement={
           chartState.renderCustomNodeElement
             ? (rd3tProps) =>
-                chartState.renderCustomNodeElement(rd3tProps, 'horizontal')
+                chartState.renderCustomNodeElement(rd3tProps, chartState)
             : undefined
         }
         collapsible={true}

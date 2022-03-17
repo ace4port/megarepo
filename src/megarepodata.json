@@ -453,6 +453,15 @@
         {
           "name": "Cloud computing",
           "attributes": {},
+          "roles": [
+            "Cloud Architect",
+            "Cloud Consultant",
+            "Cloud Product and Project Manager",
+            "Cloud Services Developer",
+            "Cloud Software and Network Engineer",
+            "Cloud System Administrator",
+            "Cloud System Engineer"
+          ],
           "children": [
             {
               "name": "Amazon Web Services"
