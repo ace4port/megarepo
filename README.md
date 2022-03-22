@@ -14,6 +14,14 @@ Or send me details of what to include on aansari108d@gmail.com
 
 # Happy learning!!
 
+# Contributing
+
+We welcome all contributions. A person cannot know everything and so we must rely on each other.
+We plan to make contributions easier for non-programming community by introducing WYSIWYG editor but it is work in progress.
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
+Is you have any suggestions or issues feel to make an issue
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
