@@ -390,9 +390,9 @@
       ]
     },
     {
-      "name": "Future",
+      "name": "Emerging",
       "attributes": {
-        "description": "Fields pretty new (<10 years) or  not fully matured",
+        "description": "Growing fast, emerging, Not fully matured",
         "industry": "full potential not realized",
         "resources": "may have diffuculty finding quality resources and best practices"
       },
@@ -487,7 +487,7 @@
           ]
         },
         {
-          "name": "AR/VR",
+          "name": "Entended Reality",
           "attributes": {},
           "children": [
             {
@@ -495,6 +495,9 @@
             },
             {
               "name": "Virtual Reality (VR)"
+            },
+            {
+              "name": "Mixed Reality"
             }
           ]
         },
